@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pet Community</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: #f7f8fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .welcome-card {
+            background-color: #ffffff;
+            padding: 40px 50px;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+            text-align: center;
+            width: 100%;
+            max-width: 420px;
+        }
+
+        .welcome-card h1 {
+            margin-bottom: 12px;
+            font-size: 26px;
+            color: #333;
+        }
+
+        .welcome-card p {
+            margin-bottom: 30px;
+            font-size: 15px;
+            color: #666;
+        }
+
+        .welcome-card a {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #ff8c42;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 15px;
+            font-weight: 500;
+        }
+
+        .welcome-card a:hover {
+            background-color: #ff7a24;
+        }
+    </style>
+</head>
+<body>
+
+<div class="welcome-card">
+    <h1>{{username}}님, 반가워요!</h1>
+    <p>반려동물과의 소중한 일상을 공유해보세요 🐶🐱</p>
+    <a href="/articles">커뮤니티 둘러보기</a>
+</div>
+
+</body>
+</html>
